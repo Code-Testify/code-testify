@@ -17,10 +17,11 @@ const Home = () => {
     <Container>
       <ScrollToTop />
       <ContentBlock
-        direction="right"
+        direction="left"
         title={IntroContent.title}
         content={IntroContent.text}
         button={IntroContent.button}
+        scrollPath="about"
         icon="developer.svg"
         id="intro"
       />
@@ -28,28 +29,33 @@ const Home = () => {
         title={MiddleBlockContent.title}
         content={MiddleBlockContent.text}
         button={MiddleBlockContent.button}
-      />
-      <ContentBlock
-        direction="left"
-        title={AboutContent.title}
-        content={AboutContent.text}
-        section={AboutContent.section}
-        icon="graphs.svg"
+        scrollPath="services"
         id="about"
       />
       <ContentBlock
         direction="right"
-        title={MissionContent.title}
-        content={MissionContent.text}
-        icon="product-launch.svg"
-        id="mission"
+        title={AboutContent.title}
+        content={AboutContent.text}
+        section={AboutContent.section}
+        scrollPath="services"
+        icon="graphs.svg"
+        id="services"
       />
       <ContentBlock
         direction="left"
+        title={MissionContent.title}
+        content={MissionContent.text}
+        button={MissionContent.button}
+        icon="salesforce.png"
+        id="salesforce"
+        scrollPath="undefined"
+      />
+      <MiddleBlock
         title={ProductContent.title}
         content={ProductContent.text}
-        icon="waving.svg"
-        id="product"
+        button={ProductContent.button}
+        scrollPath="contact"
+        id="whyChooseUs"
       />
       <Contact
         title={ContactContent.title}

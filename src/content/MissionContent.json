@@ -1,4 +1,10 @@
 {
-  "title": "Ready made sections",
-  "text": "Landy comes with a set of ready to use sections to help you easily create a landing page for your own brand, with all the content your startup desires. In order to replace any dummy elements (text, image, etc..) all you need to do is go to content folder and input your real content."
+  "title": "Salesforce Solutions Tailored for Your Business",
+  "text": "Unlock the power of Salesforce with customized CRM solutions, seamless migration, and expert implementation. We help you automate workflows, manage leads, and integrate with third-party platforms to boost efficiency and drive growth.",
+  "button": [
+    {
+      "title": "Learn more",
+      "color": "#fff"
+    }
+  ]
 }

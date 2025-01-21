@@ -85,6 +85,7 @@ export const Span = styled("span")`
   cursor: pointer;
   transition: all 0.3s ease-in-out;
 
+
   &:hover,
   &:active,
   &:focus {

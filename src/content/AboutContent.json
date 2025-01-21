@@ -1,15 +1,35 @@
 {
-  "title": "Light, fast & responsive",
-  "text": "This template is ready to use, so you don't need to change anything at a component level, unless you want to customize the default styling.",
+  "title": "Our Services Designed for Seamless Growth",
+  "text": "At CodeTestify.io, we offer a range of services to accelerate your digital transformation. From custom software development to robust quality assurance, we ensure your solutions are reliable, scalable, and perfectly aligned with your business goals.",
   "section": [
     {
-      "title": "Why Antd?",
-      "content": "Ant Design is a React UI library that has a lot of easy-to-use components for building elegant UI.",
+      "title": "Custom Software Development",
+      "content": "Tailored solutions to meet your business needs.",
       "icon": "notes.svg"
     },
     {
-      "title": "Why styled-components?",
-      "content": "Styled Components gives you total control over your components.",
+      "title": "Web Application Development",
+      "content": "Responsive, user-friendly websites and apps.",
+      "icon": "notes.svg"
+    },
+    {
+      "title": "Quality Assurance (QA) & Testing",
+      "content": "Comprehensive testing to ensure flawless performance.",
+      "icon": "notes.svg"
+    },
+    {
+      "title": "Software Automation & RPA",
+      "content": "Automate repetitive tasks for greater efficiency.",
+      "icon": "notes.svg"
+    },
+    {
+      "title": "DevOps & Site Reliability Engineering",
+      "content": "Optimize workflows and ensure system reliability.",
+      "icon": "notes.svg"
+    },
+    {
+      "title": "Salesforce CRM Implementation & Support",
+      "content": "Custom Salesforce setups for better customer management.",
       "icon": "notes.svg"
     }
   ]
