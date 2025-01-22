@@ -33,11 +33,12 @@ const OurClient = ({ title, content, clientLogos, id }: ourClientsProps) => {
             }}
           >
             <h6>{title}</h6>
-            <p>{content}</p>
+            <p style={{ maxWidth: "768px", margin: "auto " }}>{content}</p>
             <div
               style={{
                 display: "flex",
-                justifyContent: "space-around",
+                justifyContent: "center",
+                flexWrap: "wrap",
                 gap: "2rem",
               }}
             >
@@ -47,7 +48,6 @@ const OurClient = ({ title, content, clientLogos, id }: ourClientsProps) => {
                   src={logo.logoUrl}
                   width="150px"
                   height="150px"
-                  //   style={{ width: "100px", height: "100px", margin: "10px" }}
                 />
               ))}
             </div>

@@ -22,6 +22,7 @@ export const StyledRow = styled(Row)`
 export const ContentWrapper = styled("div")`
   position: relative;
   max-width: 540px;
+  max-width: 1000px;
 
   @media only screen and (max-width: 575px) {
     padding-top: 4rem;

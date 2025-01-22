@@ -1,6 +1,6 @@
 {
   "title": "Our Clients",
-  "content": "We have worked with a wide range of clients from various industries.",
+  "content": "Trusted by leading businesses across industries. Here are some of the brands we’ve partnered with to deliver success:",
   "clientLogos": [
     {
       "id": 1,
@@ -14,6 +14,26 @@
     },
     {
       "id": 3,
+      "name": "Client Three",
+      "logoUrl": "product-launch.svg"
+    },
+    {
+      "id": 4,
+      "name": "Client Three",
+      "logoUrl": "product-launch.svg"
+    },
+    {
+      "id": 5,
+      "name": "Client Three",
+      "logoUrl": "product-launch.svg"
+    },
+    {
+      "id": 6,
+      "name": "Client Three",
+      "logoUrl": "product-launch.svg"
+    },
+    {
+      "id": 7,
       "name": "Client Three",
       "logoUrl": "product-launch.svg"
     }
