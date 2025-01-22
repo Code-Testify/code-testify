@@ -16,6 +16,24 @@ import {
   Span,
 } from "./styles";
 
+// Home – /
+// (Navigate to the landing page)
+
+// What We Do – /what-we-do
+// (Highlights consultation, creation, promotion, and automation services)
+
+// Services – /services
+// (Detailed breakdown of services like QA, Salesforce, development, etc.)
+
+// Our Clients – /our-clients
+// (Showcase client logos and testimonials)
+
+// Contact Us – /contact
+// (Navigate to the contact form for inquiries and support)
+
+// About Us – /about
+// (Information about CodeTestify.io and its mission)
+
 import { IoCodeSlash } from "react-icons/io5";
 
 const Header = ({ t }: { t: TFunction }) => {
@@ -35,17 +53,14 @@ const Header = ({ t }: { t: TFunction }) => {
     };
     return (
       <>
+        <CustomNavLinkSmall onClick={() => scrollTo("intro")}>
+          <Span>{t("Home")}</Span>
+        </CustomNavLinkSmall>
+        <CustomNavLinkSmall onClick={() => scrollTo("whatWeDo")}>
+          <Span>{t("What We Do")}</Span>
+        </CustomNavLinkSmall>
         <CustomNavLinkSmall onClick={() => scrollTo("services")}>
-          <Span>{t("Build")}</Span>
-        </CustomNavLinkSmall>
-        <CustomNavLinkSmall onClick={() => scrollTo("salesforce")}>
-          <Span>{t("Test")}</Span>
-        </CustomNavLinkSmall>
-        <CustomNavLinkSmall onClick={() => scrollTo("salesforce")}>
-          <Span>{t("Run")}</Span>
-        </CustomNavLinkSmall>
-        <CustomNavLinkSmall onClick={() => scrollTo("about")}>
-          <Span>{t("About")}</Span>
+          <Span>{t("Services")}</Span>
         </CustomNavLinkSmall>
         <CustomNavLinkSmall
           style={{ width: "180px" }}
