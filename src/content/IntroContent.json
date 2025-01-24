@@ -1,13 +1,9 @@
 {
-  "title": "Welcome to CodeTestify.io",
+  "title": "Welcome to Testify",
   "text": "Your Trusted Partner for Quality Assurance, Software Automation, and Custom Solutions",
   "button": [
     {
       "title": "Explore"
-    },
-    {
-      "title": "Learn more",
-      "color": "#fff"
     }
   ]
 }

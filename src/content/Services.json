@@ -1,6 +1,6 @@
 {
   "title": "Our Services Designed for Seamless Growth",
-  "text": "At CodeTestify.io, we offer a range of services to accelerate your digital transformation. From custom software development to robust quality assurance, we ensure your solutions are reliable, scalable, and perfectly aligned with your business goals.",
+  "text": "At Testify, we offer a range of services to accelerate your digital transformation. From custom software development to robust quality assurance, we ensure your solutions are reliable, scalable, and perfectly aligned with your business goals.",
   "section": [
     {
       "title": "Custom Software Development",
@@ -31,6 +31,12 @@
       "title": "Salesforce CRM Implementation & Support",
       "content": "Custom Salesforce setups for better customer management.",
       "icon": "notes.svg"
+    }
+  ],
+  "button": [
+    {
+      "title": "Explore Our Services",
+      "color": "#fff"
     }
   ]
 }

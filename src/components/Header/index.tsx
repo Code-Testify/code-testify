@@ -34,7 +34,6 @@ import {
 // About Us – /about
 // (Information about CodeTestify.io and its mission)
 
-import { IoCodeSlash } from "react-icons/io5";
 
 const Header = ({ t }: { t: TFunction }) => {
   const [visible, setVisibility] = useState(false);
@@ -59,6 +58,13 @@ const Header = ({ t }: { t: TFunction }) => {
         <CustomNavLinkSmall onClick={() => scrollTo("whatWeDo")}>
           <Span>{t("What We Do")}</Span>
         </CustomNavLinkSmall>
+        <CustomNavLinkSmall onClick={() => scrollTo("whatWeDo")}>
+          <Span>{t("Grow")}</Span>
+        </CustomNavLinkSmall>
+        <CustomNavLinkSmall onClick={() => scrollTo("whatWeDo")}>
+          <Span>{t("Clients")}</Span>
+        </CustomNavLinkSmall>
+
         <CustomNavLinkSmall onClick={() => scrollTo("services")}>
           <Span>{t("Services")}</Span>
         </CustomNavLinkSmall>

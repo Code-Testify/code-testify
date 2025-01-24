@@ -41,6 +41,7 @@ const Home = () => {
         section={Services.section}
         scrollPath="services"
         icon="graphs.svg"
+        button={Services.button}
         id="services"
       />
       <ContentBlock

@@ -95,8 +95,8 @@ const ContentBlock = ({
                           key={id}
                           color={item.color}
                           onClick={() =>
-                            scrollPath != "undefined"
-                              ? scrollTo(scrollPath)
+                              scrollPath !== "undefined"
+                                  ? scrollTo(scrollPath)
                               : (window.location.href = "/salesforce")
                           }
                         >
