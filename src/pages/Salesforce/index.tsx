@@ -1,11 +1,7 @@
 import { lazy } from "react";
-import IntroContent from "../../content/IntroContent.json";
-import WhatWeDo from "../../content/WhatWeDo.json";
-import Services from "../../content/Services.json";
 import Salesforce from "../../content/Salesforece.json";
 import WhyChooseUs from "../../content/WhyChooseUs.json";
 import ContactContent from "../../content/ContactContent.json";
-import OurClients from "../../content/OurClients.json";
 
 const Contact = lazy(() => import("../../components/ContactForm"));
 const MiddleBlock = lazy(() => import("../../components/MiddleBlock"));
